@@ -1,8 +1,6 @@
 # Cloud-Computing-Projects
 
-CSE 546 - Cloud Computing I took the CSE 546: cloud computing course as part of my masters in Computer Science program at ASU. This course provided a comprehensive understanding of the fundamental principles and concepts of cloud computing, alongside practical skills for developing cloud applications using popular Infrastructure-as-a-Service and Platform-as-a-Service resources. Employing an innovative bottom-up approach, the course covered the underlying technologies such as virtualization in cloud computing, as well as practical cloud programming techniques for both IaaS and PaaS.
-
-The course involved 2 major projects each divided into 2 parts -
+This repository involves 2 major projects each divided into 2 parts -
 
 Project 1 - IAAS
 
@@ -12,6 +10,6 @@ Part 2 - In Part 2 of the project, the Web Tier, operating on the same EC2 insta
 
 Project 2 - PAAS
 
-Part 1 - In Project 2, we utilized AWS Lambda to develop an advanced cloud application for face recognition in client videos. This phase focused on implementing the video-splitting function. Clients uploaded videos to the Input bucket, triggering a Lambda function to split them into frames stored in the Stage-1 bucket. Leveraging Docker, we seamlessly integrated files into Lambda, ensuring smooth deployment. The system efficiently processed video data, thanks to Lambda's agility. CloudWatch monitored operations, offering valuable insights. This phase showcased the power of cloud-native solutions, setting the stage for further innovation in video processing.
+Part 1 - In Project 2, I utilized AWS Lambda to develop an advanced cloud application for face recognition in client videos. This phase focused on implementing the video-splitting function. Clients uploaded videos to the Input bucket, triggering a Lambda function to split them into frames stored in the Stage-1 bucket. Leveraging Docker, I seamlessly integrated files into Lambda, ensuring smooth deployment. The system efficiently processed video data, thanks to Lambda's agility. CloudWatch monitored operations, offering valuable insights. This phase showcased the power of cloud-native solutions, setting the stage for further innovation in video processing.
 
-Part 2 - In the second part of Project 2, we deployed AWS Lambda to create a video analysis application. This involved constructing a multi-stage pipeline with four Lambda functions to handle user-uploaded videos. Initially, videos underwent frame extraction using FFmpeg within a Lambda function, storing individual frames as images in an intermediate bucket. Subsequently, a face-recognition function, encapsulated in a Docker container for Lambda deployment, applied an SSD algorithm and a pre-trained CNN model to detect faces within frames. Recognized faces were then cataloged in text files within the output bucket. This process showcased the seamless integration of Lambda, Docker, and machine learning for video analysis.
+Part 2 - In the second part of Project 2, I deployed AWS Lambda to create a video analysis application. This involved constructing a multi-stage pipeline with four Lambda functions to handle user-uploaded videos. Initially, videos underwent frame extraction using FFmpeg within a Lambda function, storing individual frames as images in an intermediate bucket. Subsequently, a face-recognition function, encapsulated in a Docker container for Lambda deployment, applied an SSD algorithm and a pre-trained CNN model to detect faces within frames. Recognized faces were then cataloged in text files within the output bucket. This process showcased the seamless integration of Lambda, Docker, and machine learning for video analysis.
